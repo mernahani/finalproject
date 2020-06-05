@@ -1,0 +1,286 @@
+//<!-------------------------the nav container --------------------------->//
+.navbg{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/breadcrumb_bg.jpg);
+    height: 400px;
+    background-position: center;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar .navbar-toggler{
+    border-color: white;
+}
+
+.thenav{
+background-image:linear-gradient(to top right,#7543f9,#9168f7);
+}
+.nav-link:hover{
+    color:white;
+}
+
+form .signup{
+    color:rgb(110, 91, 216);
+    font-weight: bold;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+form .signup:hover{
+    color: white;
+    background:none;
+}
+form a{
+    margin:0 50px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navtext{
+    padding-top: 150px;
+    box-sizing: border-box;
+    h3,a,li{
+        color: white;
+    }
+    a:hover{
+        color:white;
+        text-decoration-line: none;
+    }
+    ol{
+        background: none;
+        margin-left: -15px;
+        font-size: 20px;
+        .home{
+            font-size: 20px;
+            font-weight: 700;
+        }
+       span{
+           color: white;
+           margin: 0 5px;
+       }
+    }
+}
+.active{
+    color: white;
+    text-decoration-line: underline;
+}
+.border1{
+    border-left: 5px solid white;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+//<!---------------------------------news box----------------------->
+.grid{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.newsbox2{
+    box-shadow:  5px  5px  5px rgb(190, 190, 190);
+    margin-bottom: 20px;
+    .head{
+        color: black;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .head:hover{
+        text-decoration-line: none;
+        color:rgb(78, 78, 238);
+    }
+}
+.newsbox2:hover{
+    box-shadow:10px  10px  10px rgb(168, 168, 168) ;
+}
+.innerbox{
+padding: 20px;
+box-sizing: border-box;
+}
+.name{
+font-size: 15px;
+color: rgb(230, 97, 2);
+margin-left: 5px;
+}
+.date{
+font-size: 14px;
+color: darkgray;
+margin-top: 2px;
+}
+.share{
+color: rgb(121, 121, 121); 
+margin-top: 7px;  
+}
+.share:hover{
+color: rgb(230, 97, 2);
+}
+.thirdcol{
+    h5{
+        font-size: 15px;
+    }
+    h4{
+        padding: 50px 0 20px 0;
+        box-sizing: border-box;
+    }
+    li{
+        list-style: none;
+        transform: translateX(-40px);
+    }
+    a{
+        color: black;
+    }
+    a:hover{
+        text-decoration:none ;
+    }
+    form{
+        input{
+            padding: 10px 150px 10px 10px;
+            box-sizing: border-box;
+        }
+        button{
+            position: absolute;
+            top: 50;
+            right: 5%;
+            background: none;
+            border: none;
+            color: black;
+            font-size: 30px;
+            outline: none;
+        }
+    }
+    .formdiv{
+        position: relative;
+    }
+    .tags{
+        a{
+            border: 1px solid rgb(204, 203, 203);
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+        a:hover{
+            border-color: rgb(62, 62, 228);
+            background-color:rgb(62, 62, 228) ;
+            color: white;
+        }
+    }
+    .margin{
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+}
+//<!-------------------------pagination--------------------->
+.pagination{
+    font-size: 20px;
+    ul{
+        padding: 50px;
+        box-sizing: border-box;
+        a{
+            padding: 10px 30px;
+            box-sizing: border-box;
+        }
+    }
+}
+//<!-----------------------------------------brands carousel------------------------------------>
+.width{
+    width: 70%;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.brandimg{
+    width: 100%;
+}
+///<!------------------------------------foooooooooooooter--------------------------->
+.footer{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .flex{
+        padding-top: 250px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        color: white;
+        p{
+            font-size: 14.5px;
+            padding-top: 20px;
+            box-sizing: border-box;
+            line-height: 25px;
+        }
+        .margin{
+            margin-left: -40px;
+        }
+        i{
+            color: white;
+            margin-right: 10px;
+        }
+        a{
+            color: white;
+            
+        }
+        a:hover{
+            color: white;
+            text-decoration-line: none;
+            margin-left: 5px;
+        }
+        li{
+            list-style: none;
+            line-height: 30px;
+        }
+    }
+}
+.tag{
+    border: 1px solid white;
+    font-size: 15px;
+    padding:5px;
+    box-sizing: border-box;
+}
+.support{
+ h5{
+     padding-bottom: 15px;
+     box-sizing: border-box;
+ }
+ p{
+     margin-top: -15px;
+ }
+ .email{
+     margin-top: -30px;
+ }
+ h6{
+     padding-bottom: 10px;
+     box-sizing: border-box;
+ }
+ .icon{
+     border: 1px solid rgb(78, 84, 172);
+     padding: 5px 15px;
+     box-sizing: border-box;
+    }
+}
+.boxborder{
+    padding: 10px 0 0 0;
+    border-top: 1px solid rgb(38, 41, 80);
+    color: white;
+    a{
+        color: white;
+        font-weight:bolder;
+    }
+    a:hover{
+        color: white;
+        text-decoration-line: none;
+    }
+    .ml{
+        margin-right: 10px;
+    }
+}
+@media(max-width:600px){
+    .footer{
+        background-position: left;
+    }
+    .paddbtm{
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .center{
+        text-align: center;
+    }
+    .signup,.search-icon{
+        display: none;
+    }
+}

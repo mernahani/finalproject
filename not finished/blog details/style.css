@@ -1,0 +1,17 @@
+.navbg {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/breadcrumb_bg.jpg);
+  background-position: center;
+  height: 450px;
+}
+
+.footerbg {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+  background-position: center;
+  height: 600px;
+}
+
+.width {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

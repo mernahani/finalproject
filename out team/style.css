@@ -1,0 +1,269 @@
+.navbg {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/breadcrumb_bg.jpg);
+  height: 400px;
+  background-position: center;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.thenav {
+  background-image: linear-gradient(to top right, #7543f9, #9168f7);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+form .signup {
+  color: #6e5bd8;
+  font-weight: bold;
+  padding: 15px 50px;
+  box-sizing: border-box;
+}
+
+form .signup:hover {
+  color: white;
+  background: none;
+}
+
+form a {
+  margin: 0 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navtext {
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+.navtext h3, .navtext a, .navtext li {
+  color: white;
+}
+.navtext a:hover {
+  color: white;
+  text-decoration-line: none;
+}
+.navtext ol {
+  background: none;
+  margin-left: -15px;
+  font-size: 20px;
+}
+.navtext ol .home {
+  font-size: 20px;
+  font-weight: 700;
+}
+.navtext ol span {
+  color: white;
+  margin: 0 5px;
+}
+
+.active {
+  color: white;
+  text-decoration-line: underline;
+}
+
+.border1 {
+  border-left: 5px solid white;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.padd {
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.paddtop {
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.teambox {
+  border-bottom: 1px solid #d4d4d4;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.teambox i {
+  margin: 0 15px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  transform: translateY(15px);
+}
+.teambox .face {
+  padding: 5px;
+  box-sizing: border-box;
+  color: #3f4485;
+  background-color: white;
+  border: 1px solid #d4d4d4;
+}
+.teambox .face:hover {
+  color: white;
+  background-color: #3f4485;
+  border: 1px solid #3f4485;
+}
+.teambox .twitter {
+  padding: 5px;
+  box-sizing: border-box;
+  color: #1c99ec;
+  background-color: white;
+  border: 1px solid #d4d4d4;
+}
+.teambox .twitter:hover {
+  color: white;
+  background-color: #1c99ec;
+  border: 1px solid #1c99ec;
+}
+.teambox .insta {
+  padding: 5px;
+  box-sizing: border-box;
+  color: #f10ce6;
+  background-color: white;
+  border: 1px solid #d4d4d4;
+}
+.teambox .insta:hover {
+  color: white;
+  background-color: #f10ce6;
+  border: 1px solid #f10ce6;
+}
+.teambox .pintrest {
+  padding: 5px;
+  box-sizing: border-box;
+  color: #af0a0a;
+  background-color: white;
+  border: 1px solid #d4d4d4;
+}
+.teambox .pintrest:hover {
+  color: white;
+  background-color: #af0a0a;
+  border: 1px solid #af0a0a;
+}
+
+.width {
+  width: 70%;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.brandimg {
+  width: 100%;
+}
+
+.footer {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer .flex {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  color: white;
+}
+.footer .flex p {
+  font-size: 14.5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+.footer .flex .margin {
+  margin-left: -40px;
+}
+.footer .flex i {
+  color: white;
+  margin-right: 10px;
+}
+.footer .flex a {
+  color: white;
+}
+.footer .flex a:hover {
+  color: white;
+  text-decoration-line: none;
+  margin-left: 5px;
+}
+.footer .flex li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.tag {
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.support h5 {
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+.support p {
+  margin-top: -15px;
+}
+.support .email {
+  margin-top: -30px;
+}
+.support h6 {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.support .icon {
+  border: 1px solid #4e54ac;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.boxborder {
+  padding: 10px 0 0 0;
+  border-top: 1px solid #262950;
+  color: white;
+}
+.boxborder a {
+  color: white;
+  font-weight: bolder;
+}
+.boxborder a:hover {
+  color: white;
+  text-decoration-line: none;
+}
+.boxborder .ml {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    background-position: left;
+  }
+
+  .paddbtm {
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .signup, .search-icon {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .teambox {
+    margin-bottom: 40px;
+  }
+  .teambox img {
+    width: 100%;
+  }
+
+  .width {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

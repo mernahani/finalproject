@@ -1,0 +1,346 @@
+//<!-------------------------the nav container --------------------------->//
+.navbg{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/breadcrumb_bg.jpg);
+    height: 400px;
+    background-position: center;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.thenav{
+background-image:linear-gradient(to top right,#7543f9,#9168f7);
+}
+.nav-link:hover{
+    color:white;
+}
+
+form .signup{
+    color:rgb(110, 91, 216);
+    font-weight: bold;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+form .signup:hover{
+    color: white;
+    background:none;
+}
+form a{
+    margin:0 50px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navtext{
+    padding-top: 150px;
+    box-sizing: border-box;
+    h3,a,li{
+        color: white;
+    }
+    a:hover{
+        color:white;
+        text-decoration-line: none;
+    }
+    ol{
+        background: none;
+        margin-left: -15px;
+        font-size: 20px;
+        .home{
+            font-size: 20px;
+            font-weight: 700;
+        }
+       span{
+           color: white;
+           margin: 0 5px;
+       }
+    }
+}
+.active{
+    color: white;
+    text-decoration-line: underline;
+}
+.border1{
+    border-left: 5px solid white;
+    padding-left: 20px;
+    box-sizing: border-box;
+    h3{
+        font-size: 40px;
+    }
+}
+//<!-----------------------------Why We Are Different container---------------------------->
+.container2padd{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.text6{
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    p{
+        color:rgb(98, 117, 170);
+        font-size: 15px;
+    }
+    button{
+        padding: 15px 35px;
+        font-weight: 700;
+        border-color: rgb(125, 112, 240);
+        box-sizing: border-box;
+        
+    }
+    button:hover{
+        background-color: rgb(125, 112, 240);
+        border-color:rgb(125, 112, 240) ;
+        color: white;
+    }
+}
+///<!-------------------------the best container----------------------------->
+.thebest{
+    background-image: linear-gradient(rgb(237, 250, 234),rgb(255, 253, 253));
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    .padding{
+        padding-top: 150px;
+        box-sizing: border-box;
+    }
+    .textpadd{
+        padding-top: 50px;
+        box-sizing: border-box;
+        h2{
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        p,span{
+            color: rgb(117, 98, 170);
+        }
+        i{
+            border: 1px solid orangered;
+            color: orangered;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-right: 10px;
+
+        }
+        .pdr{
+            margin-left: 40px;
+        }
+    }
+}
+//<!--------------------------circle progress container-------------------------->//
+.svgcontainer{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    p{
+        color:rgb(98, 117, 170);
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+}
+.img8{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.text8{
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.box{
+    text-align: center;
+    position: relative;
+    span{
+        position: absolute;
+        top:5;
+    }
+}
+svg{
+    circle{
+        fill:none;
+        stroke-width: 10;
+        stroke:rgb(240, 240, 240);
+        transform: translate(5px,5px);
+    }
+}
+svg{
+    circle:nth-child(2){
+        stroke-dasharray: 440;
+        stroke-dashoffset: 440;
+    }
+}
+.bigbox:nth-child(1){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 260;
+            stroke: rgb(89, 64, 180);
+        }
+    }
+}
+.bigbox:nth-child(2){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 205;
+            stroke: rgb(175, 38, 4);
+        }
+    }
+}
+.bigbox:nth-child(3){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 230;
+            stroke:rgb(78, 201, 54);
+            
+        }
+    }
+}
+.bigbox:nth-child(4){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 210;
+            stroke:rgb(62, 180, 226);
+            
+        }
+    }
+}
+.box{
+    
+    width: 100%;
+    height: 180px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px 10px rgb(231, 231, 231);
+}
+//<!-----------------------------------------brands carousel------------------------------------>
+.width{
+    width: 70%;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.brandimg{
+    width: 100%;
+}
+///<!------------------------------------foooooooooooooter--------------------------->
+.footer{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .flex{
+        padding-top: 250px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        color: white;
+        p{
+            font-size: 14.5px;
+            padding-top: 20px;
+            box-sizing: border-box;
+            line-height: 25px;
+        }
+        .margin{
+            margin-left: -40px;
+        }
+        i{
+            color: white;
+            margin-right: 10px;
+        }
+        a{
+            color: white;
+            
+        }
+        a:hover{
+            color: white;
+            text-decoration-line: none;
+            margin-left: 5px;
+        }
+        li{
+            list-style: none;
+            line-height: 30px;
+        }
+    }
+}
+.tag{
+    border: 1px solid white;
+    font-size: 15px;
+    padding:5px;
+    box-sizing: border-box;
+}
+.support{
+ h5{
+     padding-bottom: 15px;
+     box-sizing: border-box;
+ }
+ p{
+     margin-top: -15px;
+ }
+ .email{
+     margin-top: -30px;
+ }
+ h6{
+     padding-bottom: 10px;
+     box-sizing: border-box;
+ }
+ .icon{
+     border: 1px solid rgb(78, 84, 172);
+     padding: 5px 15px;
+     box-sizing: border-box;
+    }
+}
+.boxborder{
+    padding: 10px 0 0 0;
+    border-top: 1px solid rgb(38, 41, 80);
+    color: white;
+    a{
+        color: white;
+        font-weight:bolder;
+    }
+    a:hover{
+        color: white;
+        text-decoration-line: none;
+    }
+    .ml{
+        margin-right: 10px;
+    }
+}
+@media(max-width:600px){
+    .footer{
+        background-position: left;
+    }
+    .paddbtm{
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .center{
+        text-align: center;
+    }
+    .signup,.search-icon{
+        display: none;
+    }
+}
+//<!-------------------------some media query shit--------------------->
+@media(max-width:800px){
+    .bestimg{
+        width: 100%;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .box{
+        margin-bottom: 30px;
+    }
+    .width{
+        width: 100%;
+    }
+    .img3,.img4,.img5,.img8{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,345 @@
+.navbg {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/breadcrumb_bg.jpg);
+  height: 400px;
+  background-position: center;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.thenav {
+  background-image: linear-gradient(to top right, #7543f9, #9168f7);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+form .signup {
+  color: #6e5bd8;
+  font-weight: bold;
+  padding: 15px 50px;
+  box-sizing: border-box;
+}
+
+form .signup:hover {
+  color: white;
+  background: none;
+}
+
+form a {
+  margin: 0 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navtext {
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+.navtext h3, .navtext a, .navtext li {
+  color: white;
+}
+.navtext a:hover {
+  color: white;
+  text-decoration-line: none;
+}
+.navtext ol {
+  background: none;
+  margin-left: -15px;
+  font-size: 20px;
+}
+.navtext ol .home {
+  font-size: 20px;
+  font-weight: 700;
+}
+.navtext ol span {
+  color: white;
+  margin: 0 5px;
+}
+
+.active {
+  color: white;
+  text-decoration-line: underline;
+}
+
+.border1 {
+  border-left: 5px solid white;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.border1 h3 {
+  font-size: 40px;
+}
+
+.container2padd {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.text6 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.text6 p {
+  color: #6275aa;
+  font-size: 15px;
+}
+.text6 button {
+  padding: 15px 35px;
+  font-weight: 700;
+  border-color: #7d70f0;
+  box-sizing: border-box;
+}
+.text6 button:hover {
+  background-color: #7d70f0;
+  border-color: #7d70f0;
+  color: white;
+}
+
+.thebest {
+  background-image: linear-gradient(#edfaea, #fffdfd);
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.thebest .padding {
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+.thebest .textpadd {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.thebest .textpadd h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.thebest .textpadd p, .thebest .textpadd span {
+  color: #7562aa;
+}
+.thebest .textpadd i {
+  border: 1px solid orangered;
+  color: orangered;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+.thebest .textpadd .pdr {
+  margin-left: 40px;
+}
+
+.svgcontainer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.svgcontainer h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.svgcontainer p {
+  color: #6275aa;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.img8 {
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.text8 {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.box {
+  text-align: center;
+  position: relative;
+}
+.box span {
+  position: absolute;
+  top: 5;
+}
+
+svg circle {
+  fill: none;
+  stroke-width: 10;
+  stroke: #f0f0f0;
+  transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.bigbox:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: 260;
+  stroke: #5940b4;
+}
+
+.bigbox:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: 205;
+  stroke: #af2604;
+}
+
+.bigbox:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: 230;
+  stroke: #4ec936;
+}
+
+.bigbox:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: 210;
+  stroke: #3eb4e2;
+}
+
+.box {
+  width: 100%;
+  height: 180px;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px 10px #e7e7e7;
+}
+
+.width {
+  width: 70%;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.brandimg {
+  width: 100%;
+}
+
+.footer {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer .flex {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  color: white;
+}
+.footer .flex p {
+  font-size: 14.5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+.footer .flex .margin {
+  margin-left: -40px;
+}
+.footer .flex i {
+  color: white;
+  margin-right: 10px;
+}
+.footer .flex a {
+  color: white;
+}
+.footer .flex a:hover {
+  color: white;
+  text-decoration-line: none;
+  margin-left: 5px;
+}
+.footer .flex li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.tag {
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.support h5 {
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+.support p {
+  margin-top: -15px;
+}
+.support .email {
+  margin-top: -30px;
+}
+.support h6 {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.support .icon {
+  border: 1px solid #4e54ac;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.boxborder {
+  padding: 10px 0 0 0;
+  border-top: 1px solid #262950;
+  color: white;
+}
+.boxborder a {
+  color: white;
+  font-weight: bolder;
+}
+.boxborder a:hover {
+  color: white;
+  text-decoration-line: none;
+}
+.boxborder .ml {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    background-position: left;
+  }
+
+  .paddbtm {
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .signup, .search-icon {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .bestimg {
+    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  .box {
+    margin-bottom: 30px;
+  }
+
+  .width {
+    width: 100%;
+  }
+
+  .img3, .img4, .img5, .img8 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
