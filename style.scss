@@ -1,0 +1,662 @@
+//<!-------------------------the nav container --------------------------->//
+.navbg{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/slider/slider_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+}
+.active{
+    color: white;
+    text-decoration-line: underline;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+
+}
+.navbar .navbar-toggler{
+    border-color: white;
+}
+.thenav{
+background-image:linear-gradient(to top right,#7543f9,#926bf7);
+}
+.nav-link:hover{
+    color:white;
+}
+.active{
+    text-decoration-line:white solid 3px;
+}
+form .signup{
+    color:rgb(110, 91, 216);
+    font-weight: bold;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+form .signup:hover{
+    color: white;
+    background:none;
+}
+form a{
+    margin:0 50px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navcolor{
+    color: white;
+}
+.textpadding{
+    padding-top: 300px;
+    box-sizing: border-box;
+    h2{
+        color: white;
+        font-size: 40px;
+    }
+    h1{
+        color: white;
+        font-size: 65px;
+        font-weight: 900;
+        margin: 5px 0 20px 0;
+    }
+    p{
+        color: white;
+        font-size: 15px;
+    }
+    button{
+        padding: 15px 35px;
+        box-sizing: border-box;
+        font-weight: 900;
+    }
+    button:hover{
+        color: rgb(125, 112, 240);
+    }
+}
+.sliderpadding{
+    padding-top: 150px;
+    box-sizing: border-box;
+    transform: translateX(-100px);
+}
+@media(max-width:1000px){
+    .sliderpadding,.shape1,.shape2{
+        display: none;
+    }
+}
+//<!---------------------------shapes div------------------------->//
+.bgcontainer{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/start_shape_bg.png);
+    background-size: cover;
+    background-position: left;
+}
+.hight{
+    height: 200px;
+}
+.relative{
+    position: relative;
+}
+.shape1{
+    position: absolute;
+    right:10;
+    transform:translate(20px,-30px);
+    padding-bottom: 150px;
+    box-sizing: border-box;
+
+}
+.shape2{
+   transform: translateY(-150px);
+}
+//<!--------------------------start to end container-------------------------->//
+.containerpadd{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+.img{
+   transform: translateX(-170px);
+  
+}
+.text4{
+    div{
+        padding-left: 50px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    p{
+        color: rgb(98, 117, 170);
+        padding-bottom: 15px;
+        box-sizing: border-box;
+    }
+    button{
+        padding: 15px 35px;
+        box-sizing: border-box;
+        font-weight: 700;
+        border-color: rgb(125, 112, 240);
+        
+    }
+    button:hover{
+        background-color: rgb(125, 112, 240);
+        border-color:rgb(125, 112, 240) ;
+        color: white;
+    }
+}
+//<!--------------------features container--------------------->
+.featurescont{
+    padding-bottom: 200px;
+    box-sizing: border-box;
+}
+.text5{
+    span{
+        font-size: 20px;
+        font-weight: 600;
+        color:rgb(125, 112, 240);
+        letter-spacing: 0.1rem;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    p{
+        color:rgb(98, 117, 170) ;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+}
+.gray{
+    img{
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    a{
+        color: black;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    p{
+        color:rgb(98, 117, 170);
+    }
+    a:hover{
+        text-decoration-line: none;
+    }
+}
+//<!------------------------------num counter container--------------------------------->
+.bgimage{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/counter_bg.jpg);
+    height: 350px;
+}
+.censoredimg{
+    transform: translate(-228px,-100px);
+}
+.transparentbg{
+    background: rgb(117, 31, 255);
+    opacity: 0.8;
+    height: 350px;
+    span{
+        color: white;
+        font-size: 25px;
+        font-weight:900;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        font-weight:900;
+    }
+}
+.numcounter{
+    display: flex;
+    height:300px;
+    align-items:center;
+}
+//<!-----------------------------Why We Are Different container---------------------------->
+.container2padd{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.text6{
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    p{
+        color:rgb(98, 117, 170);
+        font-size: 15px;
+    }
+    button{
+        padding: 15px 35px;
+        font-weight: 700;
+        border-color: rgb(125, 112, 240);
+        box-sizing: border-box;
+        
+    }
+    button:hover{
+        background-color: rgb(125, 112, 240);
+        border-color:rgb(125, 112, 240) ;
+        color: white;
+    }
+}
+//<!--------------------------------------Spend Optimization--------------------------------->
+.testbg{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/area_bg.png);
+    background-size: cover;
+}
+    
+.cont2padding{
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+.text7{
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    p{
+        color:rgb(98, 117, 170);
+        font-size: 17px;
+    }
+    h3{
+        margin-left: -10px;
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+}
+.paddleft{
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+.text7padd{
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+// <!----------------------------------testmonial container---------------------->
+.testdiv{
+    padding-top: 100px;
+    box-sizing: border-box;
+    span{
+        font-size: 20px;
+        font-weight: 600;
+        color:rgb(125, 112, 240);
+        letter-spacing: 0.1rem;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    p{
+        padding-top: 20px;
+        color:rgb(98, 117, 170);
+        font-size: 25px;
+    }
+    .coresoldiv{
+        padding-bottom: 150px;
+        box-sizing: border-box;
+    }
+
+}
+.starsdiv{
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+//<!--------------------------circle progress container-------------------------->//
+.svgcontainer{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    p{
+        color:rgb(98, 117, 170);
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+}
+.img8{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.text8{
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.box{
+    text-align: center;
+    position: relative;
+    span{
+        position: absolute;
+        top:5;
+    }
+}
+svg{
+    circle{
+        fill:none;
+        stroke-width: 10;
+        stroke:rgb(240, 240, 240);
+        transform: translate(5px,5px);
+    }
+}
+svg{
+    circle:nth-child(2){
+        stroke-dasharray: 440;
+        stroke-dashoffset: 440;
+    }
+}
+.bigbox:nth-child(1){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 260;
+            stroke: rgb(89, 64, 180);
+        }
+    }
+}
+.bigbox:nth-child(2){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 205;
+            stroke: rgb(175, 38, 4);
+        }
+    }
+}
+.bigbox:nth-child(3){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 230;
+            stroke:rgb(78, 201, 54);
+            
+        }
+    }
+}
+.bigbox:nth-child(4){
+    svg{
+        circle:nth-child(2){
+            stroke-dashoffset: 210;
+            stroke:rgb(62, 180, 226);
+            
+        }
+    }
+}
+.box{
+    
+    width: 100%;
+    height: 180px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px 10px rgb(231, 231, 231);
+}
+//<!-------------------------------blue backgroung container--------------------------------->
+.bgblue{
+    background-image:linear-gradient(to top right,rgb(113, 201, 228),rgb(4, 162, 224));
+    height: 300px;
+}
+.text9{
+    padding-top: 50px;
+    box-sizing: border-box;
+    h2{
+        font-size: 40px;
+        font-weight: 900;
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
+.button9{
+    padding-top: 100px;
+    box-sizing: border-box;
+    text-align: right;
+    button{
+        padding: 15px 30px;
+        box-sizing: border-box;
+        border-color: white;
+        color: white;
+        font-weight: 900;
+        
+    }
+    button:hover{
+        background-color: white;
+        border-color: white;
+        color: rgb(76, 59, 235);
+    }
+}
+//<!---------------------------------------------latest news container--------------------------->
+.latestnews{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+    .img1{
+        width: 100%;
+    }
+}
+.text11{
+    span{
+        font-size: 20px;
+        font-weight: 600px;
+        color: rgb(89, 64, 180);
+    }
+    h2{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    p{
+        color:rgb(98, 117, 170) ;
+        padding-top: 5px;
+        font-weight: 600;
+        box-sizing: border-box;
+    }
+    .paddin{
+        padding: 15px;
+    }
+    .newsbox2{
+        box-shadow:  5px  5px  5px rgb(190, 190, 190);
+
+        .head{
+            color: black;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .head:hover{
+            text-decoration-line: none;
+            color:rgb(78, 78, 238);
+        }
+    }
+    .newsbox2:hover{
+        box-shadow:10px  10px  10px rgb(168, 168, 168) ;
+    }
+}
+.innerbox{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 15px;
+    color: rgb(230, 97, 2);
+    margin-left: 5px;
+}
+.date{
+    font-size: 14px;
+    color: darkgray;
+    margin-top: 2px;
+}
+.share{
+    color: rgb(121, 121, 121); 
+    margin-top: 7px;  
+}
+.share:hover{
+    color: rgb(230, 97, 2);
+}
+//<!-----------------------------------------brands carousel------------------------------------>
+.width{
+    width: 75%;
+}
+.brandimg{
+    width: 100%;
+}
+///<!------------------------------------foooooooooooooter--------------------------->
+.footer{
+    background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .flex{
+        padding-top: 250px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        color: white;
+        p{
+            font-size: 14.5px;
+            padding-top: 20px;
+            box-sizing: border-box;
+            line-height: 25px;
+        }
+        .margin{
+            margin-left: -40px;
+        }
+        i{
+            color: white;
+            margin-right: 10px;
+        }
+        a{
+            color: white;
+            
+        }
+        a:hover{
+            color: white;
+            text-decoration-line: none;
+            margin-left: 5px;
+        }
+        li{
+            list-style: none;
+            line-height: 30px;
+        }
+    }
+}
+.tag{
+    border: 1px solid white;
+    font-size: 15px;
+    padding:5px;
+    box-sizing: border-box;
+}
+.support{
+ h5{
+     padding-bottom: 15px;
+     box-sizing: border-box;
+ }
+ p{
+     margin-top: -15px;
+ }
+ .email{
+     margin-top: -30px;
+ }
+ h6{
+     padding-bottom: 10px;
+     box-sizing: border-box;
+ }
+ .icon{
+     border: 1px solid rgb(78, 84, 172);
+     padding: 5px 15px;
+     box-sizing: border-box;
+    }
+}
+.boxborder{
+    padding: 10px 0 0 0;
+    border-top: 1px solid rgb(38, 41, 80);
+    color: white;
+    a{
+        color: white;
+        font-weight:bolder;
+    }
+    a:hover{
+        color: white;
+        text-decoration-line: none;
+    }
+    .ml{
+        margin-right: 10px;
+    }
+}
+@media(max-width:600px){
+    .footer{
+        background-position: left;
+    }
+    .paddbtm{
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .center{
+        text-align: center;
+    }
+}
+//<!------------------------------------some media query shit--------------------------------->
+@media(max-width:1000px){
+    .img{
+        width: 100%;
+        transform: translateX(0px);
+    }
+    .censoredimg{
+        display: none;
+    }
+    .bgimage{
+        height: 500px;
+    }
+    .transparentbg{
+        height: 500px;
+    }
+    .pdtop{
+        padding-top: 100px;
+        box-sizing: border-box;
+    }
+    .pdbtm{
+        padding-bottom: 150px;
+        box-sizing: border-box;
+    }
+    .featurescont{
+        padding-bottom: 100px;
+        box-sizing: border-box;
+    }
+    .four{
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .container2padd{
+        padding-top: 60px;
+        box-sizing: border-box;
+    }
+    .img3,.img4,.img5,.img8{
+        width: 100%;
+    }
+    .bgblue{
+        height: 500px;
+    }
+    .button9{
+        text-align: left;
+        transform:translateY(-100px);
+    }
+    .newsbox{
+        padding-bottom: 20px;
+    }
+    .width{
+        width: 100%;
+    }
+    .signup,.search-icon{
+        display: none;
+    }
+}
+//<!------------------------------------the end--------------------------------->

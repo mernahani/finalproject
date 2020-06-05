@@ -1,0 +1,668 @@
+.navbg {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/slider/slider_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1100px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.thenav {
+  background-image: linear-gradient(to top right, #7543f9, #926bf7);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.active {
+  text-decoration-line: white solid 3px;
+}
+
+form .signup {
+  color: #6e5bd8;
+  font-weight: bold;
+  padding: 15px 50px;
+  box-sizing: border-box;
+}
+
+form .signup:hover {
+  color: white;
+  background: none;
+}
+
+form a {
+  margin: 0 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navcolor {
+  color: white;
+}
+
+.textpadding {
+  padding-top: 300px;
+  box-sizing: border-box;
+}
+.textpadding h2 {
+  color: white;
+  font-size: 40px;
+}
+.textpadding h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: 900;
+  margin: 5px 0 20px 0;
+}
+.textpadding p {
+  color: white;
+  font-size: 15px;
+}
+.textpadding button {
+  padding: 15px 35px;
+  box-sizing: border-box;
+  font-weight: 900;
+}
+.textpadding button:hover {
+  color: #7d70f0;
+}
+
+.sliderpadding {
+  padding-top: 150px;
+  box-sizing: border-box;
+  transform: translateX(-100px);
+}
+
+@media (max-width: 1000px) {
+  .sliderpadding, .shape1, .shape2 {
+    display: none;
+  }
+}
+.bgcontainer {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/start_shape_bg.png);
+  background-size: cover;
+  background-position: left;
+}
+
+.hight {
+  height: 200px;
+}
+
+.relative {
+  position: relative;
+}
+
+.shape1 {
+  position: absolute;
+  right: 10;
+  transform: translate(20px, -30px);
+  padding-bottom: 150px;
+  box-sizing: border-box;
+}
+
+.shape2 {
+  transform: translateY(-150px);
+}
+
+.containerpadd {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.img {
+  transform: translateX(-170px);
+}
+
+.text4 div {
+  padding-left: 50px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.text4 h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.text4 p {
+  color: #6275aa;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+.text4 button {
+  padding: 15px 35px;
+  box-sizing: border-box;
+  font-weight: 700;
+  border-color: #7d70f0;
+}
+.text4 button:hover {
+  background-color: #7d70f0;
+  border-color: #7d70f0;
+  color: white;
+}
+
+.featurescont {
+  padding-bottom: 200px;
+  box-sizing: border-box;
+}
+
+.text5 span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #7d70f0;
+  letter-spacing: 0.1rem;
+}
+.text5 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.text5 p {
+  color: #6275aa;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.gray img {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.gray a {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+.gray p {
+  color: #6275aa;
+}
+.gray a:hover {
+  text-decoration-line: none;
+}
+
+.bgimage {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/counter_bg.jpg);
+  height: 350px;
+}
+
+.censoredimg {
+  transform: translate(-228px, -100px);
+}
+
+.transparentbg {
+  background: #751fff;
+  opacity: 0.8;
+  height: 350px;
+}
+.transparentbg span {
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+.transparentbg p {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.numcounter {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+.container2padd {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.text6 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.text6 p {
+  color: #6275aa;
+  font-size: 15px;
+}
+.text6 button {
+  padding: 15px 35px;
+  font-weight: 700;
+  border-color: #7d70f0;
+  box-sizing: border-box;
+}
+.text6 button:hover {
+  background-color: #7d70f0;
+  border-color: #7d70f0;
+  color: white;
+}
+
+.testbg {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/area_bg.png);
+  background-size: cover;
+}
+
+.cont2padding {
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.text7 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.text7 p {
+  color: #6275aa;
+  font-size: 17px;
+}
+.text7 h3 {
+  margin-left: -10px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.paddleft {
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.text7padd {
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.testdiv {
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.testdiv span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #7d70f0;
+  letter-spacing: 0.1rem;
+}
+.testdiv h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.testdiv p {
+  padding-top: 20px;
+  color: #6275aa;
+  font-size: 25px;
+}
+.testdiv .coresoldiv {
+  padding-bottom: 150px;
+  box-sizing: border-box;
+}
+
+.starsdiv {
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+.svgcontainer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.svgcontainer h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.svgcontainer p {
+  color: #6275aa;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.img8 {
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.text8 {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.box {
+  text-align: center;
+  position: relative;
+}
+.box span {
+  position: absolute;
+  top: 5;
+}
+
+svg circle {
+  fill: none;
+  stroke-width: 10;
+  stroke: #f0f0f0;
+  transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.bigbox:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: 260;
+  stroke: #5940b4;
+}
+
+.bigbox:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: 205;
+  stroke: #af2604;
+}
+
+.bigbox:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: 230;
+  stroke: #4ec936;
+}
+
+.bigbox:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: 210;
+  stroke: #3eb4e2;
+}
+
+.box {
+  width: 100%;
+  height: 180px;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px 10px #e7e7e7;
+}
+
+.bgblue {
+  background-image: linear-gradient(to top right, #71c9e4, #04a2e0);
+  height: 300px;
+}
+
+.text9 {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.text9 h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+}
+.text9 p {
+  color: white;
+}
+
+.button9 {
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.button9 button {
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border-color: white;
+  color: white;
+  font-weight: 900;
+}
+.button9 button:hover {
+  background-color: white;
+  border-color: white;
+  color: #4c3beb;
+}
+
+.latestnews {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  box-sizing: border-box;
+}
+.latestnews .img1 {
+  width: 100%;
+}
+
+.text11 span {
+  font-size: 20px;
+  font-weight: 600px;
+  color: #5940b4;
+}
+.text11 h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.text11 p {
+  color: #6275aa;
+  padding-top: 5px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.text11 .paddin {
+  padding: 15px;
+}
+.text11 .newsbox2 {
+  box-shadow: 5px 5px 5px #bebebe;
+}
+.text11 .newsbox2 .head {
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.text11 .newsbox2 .head:hover {
+  text-decoration-line: none;
+  color: #4e4eee;
+}
+.text11 .newsbox2:hover {
+  box-shadow: 10px 10px 10px #a8a8a8;
+}
+
+.innerbox {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.name {
+  font-size: 15px;
+  color: #e66102;
+  margin-left: 5px;
+}
+
+.date {
+  font-size: 14px;
+  color: darkgray;
+  margin-top: 2px;
+}
+
+.share {
+  color: #797979;
+  margin-top: 7px;
+}
+
+.share:hover {
+  color: #e66102;
+}
+
+.width {
+  width: 75%;
+}
+
+.brandimg {
+  width: 100%;
+}
+
+.footer {
+  background-image: url(http://pluginspoint.com/demo/html/digee/img/bg/footer_bg01.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer .flex {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  color: white;
+}
+.footer .flex p {
+  font-size: 14.5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  line-height: 25px;
+}
+.footer .flex .margin {
+  margin-left: -40px;
+}
+.footer .flex i {
+  color: white;
+  margin-right: 10px;
+}
+.footer .flex a {
+  color: white;
+}
+.footer .flex a:hover {
+  color: white;
+  text-decoration-line: none;
+  margin-left: 5px;
+}
+.footer .flex li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.tag {
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.support h5 {
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+.support p {
+  margin-top: -15px;
+}
+.support .email {
+  margin-top: -30px;
+}
+.support h6 {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.support .icon {
+  border: 1px solid #4e54ac;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.boxborder {
+  padding: 10px 0 0 0;
+  border-top: 1px solid #262950;
+  color: white;
+}
+.boxborder a {
+  color: white;
+  font-weight: bolder;
+}
+.boxborder a:hover {
+  color: white;
+  text-decoration-line: none;
+}
+.boxborder .ml {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    background-position: left;
+  }
+
+  .paddbtm {
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  .img {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  .censoredimg {
+    display: none;
+  }
+
+  .bgimage {
+    height: 500px;
+  }
+
+  .transparentbg {
+    height: 500px;
+  }
+
+  .pdtop {
+    padding-top: 100px;
+    box-sizing: border-box;
+  }
+
+  .pdbtm {
+    padding-bottom: 150px;
+    box-sizing: border-box;
+  }
+
+  .featurescont {
+    padding-bottom: 100px;
+    box-sizing: border-box;
+  }
+
+  .four {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .container2padd {
+    padding-top: 60px;
+    box-sizing: border-box;
+  }
+
+  .img3, .img4, .img5, .img8 {
+    width: 100%;
+  }
+
+  .bgblue {
+    height: 500px;
+  }
+
+  .button9 {
+    text-align: left;
+    transform: translateY(-100px);
+  }
+
+  .newsbox {
+    padding-bottom: 20px;
+  }
+
+  .width {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
